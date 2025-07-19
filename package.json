@@ -6,7 +6,7 @@
   "type": "module",
   "packageManager": "bun@1.2.19",
   "engines": {
-    "node": ">=24.0.0",
+    "node": ">=22.12.0",
     "bun": ">=1.2.0"
   },
   "keywords": [
