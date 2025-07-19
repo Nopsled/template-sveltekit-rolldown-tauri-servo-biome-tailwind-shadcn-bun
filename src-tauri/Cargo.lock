@@ -3495,8 +3495,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn"
-version = "0.1.0"
+name = "template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun"
+version = "0.0.1"
 dependencies = [
  "serde",
  "serde_json",

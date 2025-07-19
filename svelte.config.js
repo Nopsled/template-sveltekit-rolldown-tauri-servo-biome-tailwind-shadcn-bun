@@ -7,9 +7,6 @@ const config = {
       assets: "build",
       fallback: "index.html",
     }),
-    alias: {
-      "@/*": "./path/to/lib/*",
-    },
   },
 };
 

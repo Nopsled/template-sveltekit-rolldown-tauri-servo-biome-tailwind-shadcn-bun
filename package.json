@@ -1,5 +1,5 @@
 {
-  "name": "template-sveltekit-tauri-servo-rolldown",
+  "name": "template-sveltekit-tauri-servo-rolldown-tailwind-shadcn-bun",
   "version": "0.0.1",
   "private": true,
   "scripts": {

@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "template-sveltekit-tauri-servo-rolldown",
+      "name": "template-sveltekit-tauri-servo-rolldown-tailwind-shadcn-bun",
       "dependencies": {
         "@tailwindcss/postcss": "^4.1.11",
         "@tailwindcss/vite": "^4.1.11",

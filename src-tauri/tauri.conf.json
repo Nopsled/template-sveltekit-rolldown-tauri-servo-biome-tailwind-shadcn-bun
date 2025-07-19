@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn",
-  "version": "0.1.0",
-  "identifier": "com.nopsled.template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn",
+  "productName": "template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun",
+  "version": "0.0.1",
+  "identifier": "com.nopsled.template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun",
   "build": {
     "beforeBuildCommand": "bun run sveltekit:build",
     "beforeDevCommand": "bun run sveltekit:dev",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "Template: Sveltekit (Rolldown) x Tauri (with Servo) x Biome x Tailwind x ShadCn",
+        "title": "Template: Sveltekit (Rolldown) x Tauri (with Servo) x Biome x Tailwind x ShadCn x Bun",
         "width": 800,
         "height": 600,
         "resizable": true,
