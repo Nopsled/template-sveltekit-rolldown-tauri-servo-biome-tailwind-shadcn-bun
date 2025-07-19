@@ -50,7 +50,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.1.2",
-    "@lucide/svelte": "^0.525.0",
     "@sveltejs/adapter-static": "^3.0.8",
     "@sveltejs/kit": "^2.25.1",
     "@tauri-apps/cli": "^2.6.2",
