@@ -1,6 +1,8 @@
-# SvelteKit × Rolldown × Tauri × Servo × Biome × Tailwind × ShadCn × Bun Template
-
+# SvelteKit × Rolldown × Tauri × Servo × Biome × Tailwind × ShadCn × Bun × Lucide Icons Template
 A cutting-edge desktop application template that combines the latest web technologies with Rust-powered desktop capabilities and experimental web rendering.
+
+<img width="784" height="593" alt="image" src="https://github.com/user-attachments/assets/9bc66f3c-06d6-4bd0-a85d-f64b6c1c3286" />
+
 
 ## 🚀 What This Template Provides
 
