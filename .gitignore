@@ -12,3 +12,4 @@ vite.config.ts.timestamp-*
 # Tauri
 /src-tauri/target
 /src-tauri/gen
+/src-tauri/versoview
