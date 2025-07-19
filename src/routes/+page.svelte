@@ -63,7 +63,7 @@
                 >
                     Bun v1.2
                 </span>
-                <Button variant="primary">ShadCn Button</Button>
+                <Button>ShadCn Button</Button>
             </div>
         </div>
     </div>
