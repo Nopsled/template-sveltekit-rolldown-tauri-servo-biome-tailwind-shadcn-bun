@@ -42,7 +42,7 @@ Make sure you have the following installed:
 
 - **[Bun](https://bun.sh/)** (latest version) - Package manager and runtime
 - **[Rust](https://rustup.rs/)** (latest stable) - Required for Tauri
-- **[Node.js](https://nodejs.org/)** (v18+) - Fallback runtime support
+- **[Node.js](https://nodejs.org/)** (v22.12+) - Fallback runtime support
 
 ### Platform-Specific Requirements
 
