@@ -1,4 +1,4 @@
-# SvelteKit × Rolldown × Tauri × Servo × Biome × Tailwind × ShadCN Template
+# SvelteKit × Rolldown × Tauri × Servo × Biome × Tailwind × ShadCn × Bun Template
 
 A cutting-edge desktop application template that combines the latest web technologies with Rust-powered desktop capabilities and experimental web rendering.
 
