@@ -70,12 +70,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun.git"
+    "url": "https://github.com/Nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun.git"
   },
   "bugs": {
-    "url": "https://github.com/nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun/issues"
+    "url": "https://github.com/Nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun/issues"
   },
-  "homepage": "https://github.com/nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun#readme",
+  "homepage": "https://github.com/Nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun#readme",
   "license": "MIT",
   "files": [
     "build",
