@@ -1,40 +1,88 @@
 {
   "name": "template-sveltekit-tauri-servo-rolldown-tailwind-shadcn-bun",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
+  "description": "A modern full-stack template combining SvelteKit, Tauri, Rolldown, TailwindCSS, shadcn/ui, and Bun for building fast desktop applications",
+  "type": "module",
+  "packageManager": "bun@1.2.19",
+  "engines": {
+    "node": ">=24.0.0",
+    "bun": ">=1.2.0"
+  },
+  "keywords": [
+    "sveltekit",
+    "tauri",
+    "rolldown",
+    "tailwindcss",
+    "shadcn",
+    "bun",
+    "desktop",
+    "typescript",
+    "biome"
+  ],
   "scripts": {
     "dev": "bun run tauri dev",
     "build": "bun run tauri build",
+    "preview": "vite preview",
     "tauri": "tauri",
     "sveltekit:dev": "vite dev",
     "sveltekit:build": "vite build",
-    "preview": "vite preview",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+    "sveltekit:preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "type-check": "tsc --noEmit",
+    "sync": "svelte-kit sync",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "lint:unsafe": "biome lint --write --unsafe .",
+    "code-quality": "bun run format && bun run lint:fix && bun run check",
+    "clean": "rm -rf node_modules && rm -rf .svelte-kit && rm -rf src-tauri/gen && rm -rf src-tauri/target && rm -rf src-tauri/versoview",
+    "reinstall": "bun run clean && bun install"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.3.1",
+    "tailwind-variants": "^1.0.0",
+    "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.1.2",
     "@lucide/svelte": "^0.525.0",
     "@sveltejs/adapter-static": "^3.0.8",
     "@sveltejs/kit": "^2.25.1",
-    "@tailwindcss/vite": "^4.0.0",
     "@tauri-apps/cli": "^2.6.2",
-    "autoprefixer": "^10.4.21",
-    "clsx": "^2.1.1",
+    "@types/node": "^24.0.15",
     "svelte": "^5.36.8",
     "svelte-check": "^4.3.0",
-    "svelte-eslint-parser": "^1.3.0",
-    "tailwind-variants": "^1.0.0",
-    "tailwindcss": "^4.0.0",
     "tw-animate-css": "^1.3.5",
     "typescript": "^5.8.3",
     "vite": "npm:rolldown-vite@latest"
   },
-  "type": "module",
-  "dependencies": {
-    "@tailwindcss/postcss": "^4.1.11",
-    "@tailwindcss/vite": "^4.1.11",
-    "tailwind-merge": "^3.3.1"
+  "peerDependencies": {
+    "@tauri-apps/api": ">=2.6.0"
   },
-  "packageManager": "bun@1.2.18"
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun/issues"
+  },
+  "homepage": "https://github.com/nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun#readme",
+  "license": "MIT",
+  "files": [
+    "build",
+    "src",
+    "static",
+    "svelte.config.js",
+    "vite.config.ts",
+    "tsconfig.json"
+  ]
 }

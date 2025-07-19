@@ -1,5 +1,6 @@
 <script lang="ts">
-    import { Button } from "$lib/components/ui/button/index.js";
+    // import { Button } from "$lib/components/ui/button/index.js";
+    // import { Skull } from '@lucide/svelte';
 </script>
 
 <div
@@ -25,7 +26,7 @@
                 <span
                     class="bg-orange-100 text-orange-800 px-3 py-1 rounded-md text-sm font-medium"
                 >
-                    SvelteKit v5
+                    Svelte v5 + SvelteKit v2
                 </span>
                 <span
                     class="bg-blue-100 text-blue-800 px-3 py-1 rounded-md text-sm font-medium"
@@ -46,6 +47,11 @@
                     class="bg-purple-100 text-purple-800 px-3 py-1 rounded-md text-sm font-medium"
                 >
                     Tailwind v4
+                </span>
+                <span
+                    class="bg-purple-100 text-purple-800 px-3 py-1 rounded-md text-sm font-medium"
+                >
+                    Lucide Icons
                 </span>
                 <span
                     class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-md text-sm font-medium"

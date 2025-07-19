@@ -13,3 +13,8 @@ vite.config.ts.timestamp-*
 /src-tauri/target
 /src-tauri/gen
 /src-tauri/versoview
+
+# Lock files
+package-lock.json
+bun.lock
+src-tauri/Cargo.lock

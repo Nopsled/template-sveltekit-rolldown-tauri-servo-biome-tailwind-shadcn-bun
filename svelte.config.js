@@ -7,6 +7,9 @@ const config = {
       assets: "build",
       fallback: "index.html",
     }),
+    alias: {
+      $lib: "src/lib",
+    },
   },
 };
 
