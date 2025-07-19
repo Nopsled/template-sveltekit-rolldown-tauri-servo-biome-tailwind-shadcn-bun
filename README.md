@@ -6,21 +6,21 @@ A cutting-edge desktop application template that combines the latest web technol
 
 This template demonstrates a modern approach to desktop application development by combining:
 
-- **SvelteKit v5** - The latest version of the powerful full-stack web framework
-- **Rolldown via Vite** - Ultra-fast Rust-powered bundler as a Vite plugin replacement
+- **Svelte v5 & SvelteKit v2** - The latest version of the powerful full-stack web framework
+- **Rolldown via Vite v7** - Ultra-fast Rust-powered bundler as a Vite plugin replacement
 - **Tauri v2** - Lightweight Rust-based framework for building desktop apps
 - **Servo Rendering Engine** - Experimental high-performance web engine written in Rust
 - **Biome v2** - Lightning-fast formatter and linter that replaces ESLint + Prettier
 - **Tailwind CSS v4** - Latest version with improved performance and new features
-- **ShadCN Svelte** - Beautiful, accessible UI components built with Tailwind
+- **ShadCn Svelte** - Beautiful, accessible UI components built with Tailwind
 
 ## ✨ Key Features
 
 ### Performance & Speed
-- **Rolldown bundling** - Significantly faster builds compared to traditional bundlers
-- **Servo rendering** - Experimental web engine with potential performance benefits
+- **Rolldown Bundling with Vite v7** - Significantly faster builds compared to traditional bundlers
+- **Servo Rendering Engine** - Experimental web engine with potential performance benefits
 - **Tauri v2** - Smaller bundle sizes and better performance than Electron
-- **Biome** - 10-100x faster than ESLint/Prettier combinations
+- **Biome v2** - 10-100x faster than ESLint/Prettier combinations
 
 ### Developer Experience
 - **TypeScript** support out of the box
@@ -46,7 +46,6 @@ Make sure you have the following installed:
 
 #### Windows
 - Microsoft C++ Build Tools or Visual Studio with C++ support
-- WebView2 (usually pre-installed on Windows 10/11)
 
 #### macOS
 - Xcode Command Line Tools: `xcode-select --install`
@@ -70,7 +69,7 @@ sudo apt install libwebkit2gtk-4.1-dev \
 1. **Clone or use this template**
    ```bash
    git clone <your-repo-url>
-   cd template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn
+   cd template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun
    ```
 
 2. **Install dependencies**
@@ -166,13 +165,13 @@ This template uses Tailwind CSS v4 with:
 - Responsive design utilities
 
 ### ShadCN Svelte Components
-Pre-configured with ShadCN Svelte for beautiful, accessible components:
+Pre-configured with ShadCn Svelte for beautiful, accessible components:
 - Button components included
 - Easy to add more components via CLI
 - Customizable design system
 - TypeScript support
 
-To add new ShadCN components:
+To add new ShadCn components:
 ```bash
 npx shadcn-svelte@latest add button  # Example
 ```
@@ -252,7 +251,7 @@ This template is available under the MIT License. See the LICENSE file for more 
 - [Rolldown](https://rolldown.rs/)
 - [Biome](https://biomejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [ShadCN Svelte](https://shadcn-svelte.com/)
+- [ShadCn Svelte](https://shadcn-svelte.com/)
 
 ## 💡 Tips
 
@@ -260,7 +259,7 @@ This template is available under the MIT License. See the LICENSE file for more 
 - The Servo rendering engine is experimental - report issues to help improve it
 - Biome is much faster than ESLint/Prettier - leverage it for better DX
 - Take advantage of Tailwind v4's new features for better styling
-- Use ShadCN components for consistent, accessible UI elements
+- Use ShadCn components for consistent, accessible UI elements
 
 ---
 
