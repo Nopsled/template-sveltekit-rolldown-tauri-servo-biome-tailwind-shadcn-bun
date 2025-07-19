@@ -266,3 +266,13 @@ This template is available under the MIT License. See the LICENSE file for more 
 ---
 
 **Happy coding!** 🎉 This template represents the cutting edge of desktop application development with web technologies.
+
+## Star History
+
+<a href="https://www.star-history.com/#Nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Nopsled/template-sveltekit-rolldown-tauri-servo-biome-tailwind-shadcn-bun&type=Date" />
+ </picture>
+</a>
