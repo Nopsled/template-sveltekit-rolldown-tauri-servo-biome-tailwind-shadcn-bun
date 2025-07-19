@@ -164,7 +164,7 @@ This template uses Tailwind CSS v4 with:
 - Custom design tokens
 - Responsive design utilities
 
-### ShadCN Svelte Components
+### ShadCn Svelte Components
 Pre-configured with ShadCn Svelte for beautiful, accessible components:
 - Button components included
 - Easy to add more components via CLI
@@ -173,7 +173,7 @@ Pre-configured with ShadCn Svelte for beautiful, accessible components:
 
 To add new ShadCn components:
 ```bash
-npx shadcn-svelte@latest add button  # Example
+bunx shadcn-svelte@latest add button  # Example
 ```
 
 ## 🧹 Code Quality
