@@ -12,7 +12,7 @@
         <div class="mb-8">
             <h1 class="text-3xl font-semibo ld text-gray-900 mb-3">
                 Welcome to SvelteKit with Rolldown × Tauri with Servo rendering
-                × Biome × Tailwind × ShadCn
+                × Biome × Tailwind × ShadCn × Bun
             </h1>
             <p class="text-gray-700">
                 A powerful desktop app framework combining Rust and modern web
@@ -51,6 +51,11 @@
                     class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-md text-sm font-medium"
                 >
                     ShadCn
+                </span>
+                <span
+                    class="bg-red-100 text-red-800 px-3 py-1 rounded-md text-sm font-medium"
+                >
+                    Bun v1.2
                 </span>
             </div>
         </div>
