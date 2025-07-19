@@ -1,6 +1,6 @@
 <script lang="ts">
-    // import { Button } from "$lib/components/ui/button/index.js";
-    // import { Skull } from '@lucide/svelte';
+    import { Button } from "$lib/components/ui/button/index.js";
+    import { Skull } from "@lucide/svelte";
 </script>
 
 <div
@@ -63,6 +63,7 @@
                 >
                     Bun v1.2
                 </span>
+                <Button variant="primary">ShadCn Button</Button>
             </div>
         </div>
     </div>
