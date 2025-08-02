@@ -1,7 +1,3 @@
-<script lang="ts">
-    import { Button } from "$lib/components/ui/button/index.js";
-</script>
-
 <div
     class="min-h-screen flex items-center justify-center p-4"
     style="background: linear-gradient(135deg, #acdff0 0%, #ffeec9 50%, #ffdbce 100%);"

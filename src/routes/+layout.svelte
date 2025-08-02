@@ -1,5 +1,10 @@
-<script>
-import '../app.css';
+<script lang="ts">
+    import "../app.css";
+    let { children } = $props();
 </script>
 
-<slot />
+{#if children}
+    {@render children()}
+{:else}
+    <p>Fallback content</p>
+{/if}
